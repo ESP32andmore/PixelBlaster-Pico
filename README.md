@@ -9,7 +9,7 @@ It supports virtually all LED strips and serial matrices using single-wire proto
 ## Features (controller) 
 
 - Uses the workhorse ESP32 dual-core 240MHz processor. 
-- Two channels of 5-volt logic-level translated outputs using ultra-fast and high-current LVC technology with matched and modeled serial inline resistors. 
+- Two channels of 5-volt logic-level translated outputs using ultra-fast and high-current LVC technology with matched and modeled serial inline resistors for high quality signal drive over short or long cables. 
 - Low-profile Wago push-button terminal block for easy and secure electrical connections. 
 - Compact form factor of 12 mm x 34 mm fits right in a mounting LED channel. 
 - High-quality 4-layer impedance-controlled PCB with gold-plated connectors (ENIG) for durability and corrosion resistance. 
