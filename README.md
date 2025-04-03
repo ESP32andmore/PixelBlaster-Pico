@@ -113,7 +113,7 @@ The AOHi Magcube works great for 5-volts and 12-volt strips giving a full 5 maps
 
 Fortunately for our customers, EPS32andmore.com, in a few short weeks will make available a new and extremely capable power adaptor called the GaN PD3.2 240w. It has all the PD 3.1 fixed profiles from 5 volts to 48 volts at 5 amps, PPS: 5–21 volts at 5 amps, and AVS: 15–48 at 5 amps, making it the end all solution at a comfortable price of $39.99. 
 
-### ESP32andmore GaN 240W 
+### ESP32andmore GaN PD3.2 240W 
 
 - PDO1: Fixed PDO: 5000mV 5.00A ~ (More than) 
 
