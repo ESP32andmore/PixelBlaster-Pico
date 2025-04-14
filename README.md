@@ -53,8 +53,6 @@ In selecting your charger/supply, it needs to have a profile that fits the volta
 
 The following are a few models that work well for different strip voltages: 
 
- 
-
 ### AOHI Magcube 140W USB C Charger 
 
 - PDO1: Fixed PDO: 5000mV 3.00A ~ 3.24A 
@@ -65,8 +63,6 @@ The following are a few models that work well for different strip voltages:
 - PDO6: PPS PDO: 3300mV~21000mV 5.00A ~ (More than) 
 - PDO8: Fixed PDO: 28000mV 5.00A ~ (More than) 
 
- 
-
 ### Anker 313 45W USB C Charger Block 
 
 - PDO1: Fixed PDO: 5000mV 3.00A ~ 3.24A 
@@ -76,8 +72,6 @@ The following are a few models that work well for different strip voltages:
 - PDO5: PPS PDO: 3300mV11000mV 5.00A ~ (More than) 
 - PDO6: PPS PDO: 3300mV16000mV 3.00A ~ 3.24A 
 - PDO7: PPS PDO: 3300mV~21000mV 2.25A ~ 2.49A 
-
- 
 
 ### AMEGAT Power Bank 140W, 27600mAh 3-Port Portable Charger 
 
@@ -107,11 +101,11 @@ Fortunately for our customers, EPS32andmore.com, in a few short weeks will make 
 - PDO9: Fixed PDO: 48000mV 5.00A ~ (More than) 
 - PDO10: AVS PDO: 15000mV~48000mV 5.00A ~ (More than) 
 
-### USB Type-C Cables
+## USB Type-C Cables
 
 The last component of any Power Delivery setup is a good quality PD3.1, 240 watt certified cable. Many fine cable are out there but we recommend the INIU USB C to USB C Cable, 240W Fast Charging Cable for its quality and fair price.
 
-### Setting the Working Voltage
+## Setting the Working Voltage
 
 The PixelBlaster Nano PD sets the working voltage of the LEDs by way of the 3-switch block on the board. By default this is set to 5 volts. Setting to 12 volts and 24 volts is available with the correct swtich setting.  BE CERTAIN you have selected the correct voltage for your connected LEDs.
 
@@ -130,7 +124,7 @@ A slow flash on the Status LED indicates the board has successfully negociated a
 ### 24 Volts
 <img src="work/PixelBlaste2_24v.JPG" width=200>
 
-### Programming WLED
+## Programming WLED
 
 - The PixelBlaster Nano PD comes pre-programmed from the factory with the lastest version of WLED.  To update WLED, simply follow the instructions [here](https://kno.wled.ge/basics/getting-started/) under Software Update Procedure, Method 2.
 - To reflash over the USB interface simply go [here](https://install.wled.me/). (Note: after reflashing due to a driver issue, disconnect the board from your PC and connect to a power adaptor where you can then enter in your WiFI credentials via the AP.
