@@ -144,5 +144,6 @@ The last component of any Power Delivery setup is a good quality PD3.1, 240 watt
 - The PixelBlaster Nano PD comes pre-programmed from the factory with the lastest version of WLED.  To update WLED, simply follow the instructions [here](https://kno.wled.ge/basics/getting-started/) under Software Update Procedure, Method 2.
 - To reflash over the USB interface simply go [here](https://install.wled.me/). (Note: after reflashing due to a driver issue, disconnect the board from your PC and connect to a power adaptor where you can then enter in your WiFI credentials via the AP.
 <img src="work/WLED-QR-Connect-WB.png" width=200>
+
 - To access the webpage use http://wled.local
   
