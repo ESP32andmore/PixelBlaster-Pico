@@ -122,7 +122,7 @@ A slow flash on the Status LED indicates the board has successfully negociated a
 <img src="work/PixelBlaster_12v.JPG" width=200>
 
 ### 24 Volts
-<img src="work/PixelBlaste2_24v.JPG" width=200>
+<img src="work/PixelBlaste_24v.JPG" width=200>
 
 ## Programming WLED
 
