@@ -115,9 +115,9 @@ The last component of any Power Delivery setup is a good quality PD3.1, 240 watt
 
 The PixelBlaster Nano PD sets the working voltage of the LEDs by way of the 3-switch block on the board. By default this is set to 5 volts. Setting to 12 volts and 24 volts is available with the correct swtich setting.  BE CERTAIN you have selected the correct voltage for your connected LEDs.
 
-On powerup, USB-C connection, or changing the switches, based on the selected voltage, the PixelBlaster will ascertain the available voltages and currents of the charger, and set the charger's profile (PDOs) at the desired voltage to the maxmium current available with priority givien to any variable voltage PDOs. Know your charger's capabilities before connecting your string. If your charger does not have voltage capabilities for your setting, it will default to 5 volts.
+On powerup, USB-C connection, or changing the switches, based on the selected voltage, the PixelBlaster will ascertain the available voltages and currents of the charger, and set the charger's profile (PDOs) at the desired voltage to the maxmium current available with priority givien to any programable voltage PDOs. Using programmable voltage (PPS/AVS) PDOs also allows for the PixelBlaster to compensate for any cable losses maintaining a more accurate output voltage at your LEDs. Know your charger's capabilities before connecting your string. If your charger does not have voltage capabilities for your setting, it will default to 5 volts.
 
-If you do exceed your charger's current capabilities, the overcurrent protection will intitiate, power will be shut off to the LEDs. As a safety measure, you will have to disconnect the the PxielBlaster from the USB and correct your overcurrent.
+If you do exceed your charger's current capabilities, the overcurrent protection will intitiate, power will be shut off to the LEDs. As a safety measure, you will have to disconnect the the PxielBlaster from the USB and correct your overcurrent situation.
 
 A slow flash on the Status LED indicates the board has successfully negociated a PDO with the charger but NOT THAT IT HAS negociated the selected voltage. To determine that make sure the power is turned on in WLED. A dim Voltage LED indicates 5 volts, a medium brightness on the Voltage LED indicates 12 volts, and a bright LED indicates 24 volts.
 
