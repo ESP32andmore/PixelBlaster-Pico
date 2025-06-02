@@ -22,7 +22,21 @@ It supports virtually all LED strips and serial matrices using single-wire proto
 - Power and signal pads exposed for hardwired solder options. 
 - Comes with a custom 3D-printed PLA+ case (design files available upon request). 
 - Comes with JST-SM 3 or 4-pin pigtail connector. 
-- Comes pre-flashed with the latest version of WLED. 
+- Comes pre-flashed with the latest version of WLED.
+
+### GPIO Mapping
+
+| FUNCTION | GPIO |
+| --------- | ---- |
+| C1 | IO019 |
+| D1 | IO22 |
+| Relay | IO21 |
+| I2S SCK | IO12 |
+| I2S SD | IO13 |
+| I2S WS | IO14 |
+| USER1 | IO02 |
+| USER2 | IO27 |
+| USER3 | IO26 |
 
 ## Features (PD option) 
 
